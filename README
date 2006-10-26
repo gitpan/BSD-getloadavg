@@ -1,0 +1,35 @@
+NAME
+    BSD::getloadavg - Perl Interface to getloadavg (3)
+
+SYNOPSIS
+      use BSD::getloadavg;
+      my @loadavg = getloadavg();
+
+DESCRIPTION
+    This module allows you to access load average without invoking
+    uptime(1). Instead of
+
+      my @loadavg = (qx(uptime) =~ /([\.\d]+)\s+([\.\d]+)\s+([\.\d]+)/);
+
+    You can simply
+
+      use BSD::getloadavg;
+      my @loadavg = getloadavg();
+
+  EXPORT
+    getloadavg()
+
+SEE ALSO
+    getloadavg(5),
+    <http://www.freebsd.org/cgi/man.cgi?query=getloadavg&sektion=3>
+
+AUTHOR
+    Dan Kogai, <dankogai@dan.co.jp>
+
+COPYRIGHT AND LICENSE
+    Copyright (C) 2006 by Dan Kogai
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself, either Perl version 5.8.8 or, at
+    your option, any later version of Perl 5 you may have available.
+
