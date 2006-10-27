@@ -1,9 +1,10 @@
 Changes
-getloadavg.xs
-Makefile.PL
 MANIFEST
-ppport.h
+Makefile.PL
 README
-t/BSD-getloadavg.t
+getloadavg.xs
 lib/BSD/getloadavg.pm
+ppport.h
+t/BSD-getloadavg.t
+t/benchmark.pl
 META.yml                                 Module meta-data (added by MakeMaker)

@@ -1,4 +1,15 @@
-Revision history for Perl extension BSD::getloadavg.
+#
+#  Revision history for Perl extension BSD::getloadavg.
+#
+# $Id: Changes,v 0.2 2006/10/27 04:11:25 dankogai Exp dankogai $
+#
+$Revision: 0.2 $ $Date: 2006/10/27 04:11:25 $
+! lib/BSD/getloadavg.pm
+  POD Enhanced.
+! t/BSD-getloadavg.t
+  More verbose
++ t/benchmark.pl
+  See the difference
 
 0.01  Thu Oct 26 19:33:49 2006
 	- original version; created by h2xs 1.23 with options
