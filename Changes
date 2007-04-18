@@ -1,9 +1,16 @@
 #
 #  Revision history for Perl extension BSD::getloadavg.
 #
-# $Id: Changes,v 0.2 2006/10/27 04:11:25 dankogai Exp dankogai $
+# $Id: Changes,v 0.3 2007/04/18 19:37:10 dankogai Exp dankogai $
 #
-$Revision: 0.2 $ $Date: 2006/10/27 04:11:25 $
+$Revision: 0.3 $ $Date: 2007/04/18 19:37:10 $
+! t/BSD-getloadavg.t
+  patch by Josh Miller to allow 0 instead of 0.00 for return value.
+  Message-Id: <alpine.DEB.0.83.0704181401070.11233@jmiller-desktop>
+! lib/BSD/getloadavg.pm
+  POD fixes.
+
+0.02 2006/10/27 04:11:25
 ! lib/BSD/getloadavg.pm
   POD Enhanced.
 ! t/BSD-getloadavg.t

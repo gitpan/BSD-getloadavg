@@ -1,5 +1,5 @@
 #
-# $Id: benchmark.pl,v 1.1 2006/10/27 04:11:25 dankogai Exp dankogai $
+# $Id: benchmark.pl,v 1.1 2006/10/27 04:11:25 dankogai Exp $
 #
 use strict;
 use warnings;
